@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header class="nav-bar">
+    <h1 class="logo"></h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content card">
+    <h2>Add Image by URL</h2>
+    <div class="task-input-group">
+      <input type="text" id="imageUrlInput" placeholder="Enter image URL" />
+      <button id="addImageBtn">Add Image</button>
+    </div>
+    <div id="galleryList" class="image-gallery"></div>
+  </main>
+
+  <script src="script1.js"></script>
+</body>
+</html>
+
