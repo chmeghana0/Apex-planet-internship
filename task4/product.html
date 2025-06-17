@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Catalog</title>
+  <link rel="stylesheet" href="product.css" />
+</head>
+<body>
+  <header>
+    <h1>Product Catalog</h1>
+    <div class="filters">
+      <label for="categoryFilter">Category:</label>
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="clothing">Clothing</option>
+        <option value="electronics">Electronics</option>
+        <option value="accessories">Accessories</option>
+      </select>
+
+      <label for="sortCriteria">Sort by:</label>
+      <select id="sortCriteria">
+        <option value="price">Price</option>
+        <option value="rating">Rating</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="products"></main>
+
+  <script src="product.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
